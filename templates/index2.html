@@ -1,0 +1,32 @@
+{% extends "base2.html" %}
+{% block title %}Home Page {% endblock %}
+{% block content %}
+
+<center>
+<div id = "main">
+<h4> Hello {{username}}! </h4>
+<h4>Upload File</h4>
+
+<form method = 'POST' enctype='multipart/form-data'>
+    {{form.hidden_tag()}}
+    {{form.file()}}
+    {{form.submit()}}
+</form>
+
+<form method = 'POST'>
+    {{setting.hidden_tag()}}
+    <h4>Input1</h4>
+    {{setting.input1()}}
+    <h4>Input2</h4>
+    {{setting.input2()}}
+    <h4>Update Settings</h4>
+    {{setting.submit()}}
+</form>
+
+<body>
+    <img src="{{ outputImage }}">
+</body>
+</div>
+</center>
+
+{% endblock %}

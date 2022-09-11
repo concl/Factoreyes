@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Register{% endblock %}
+{% block content %}
+
+<center>
+<div id="login">
+    <h1> Register </h1>
+<div class="input-group mb-3">
+
+    <form method="POST" action = "" id = "input">
+        {{ form.hidden_tag() }}
+        {{ form.username }}
+        {{ form.password }}
+        {{ form.submit }}
+    </form>
+</div>
+
+<form action = "/login">
+    <button type="submit" class="btn btn-primary btn-sm">Already have an Account?</button>
+</form>
+</div>
+</center>
+{% endblock %}

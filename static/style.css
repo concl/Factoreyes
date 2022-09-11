@@ -1,0 +1,40 @@
+body {
+  background-image: url("frog.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#main {
+  background-image: linear-gradient(to bottom right, lightblue , blue);
+  color:white;
+  width: 625px;
+  padding: 20px;
+
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: white;
+  outline-width: 4px;
+  position:Relative;
+  top:25px;
+}
+
+#login {
+  background-image: linear-gradient(to bottom right, lightblue , blue);
+  color:white;
+  width: 300px;
+  padding: 20px;
+
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: white;
+  outline-width: 4px;
+  position:Relative;
+  top:25px;
+}
+
+#input{
+  margin: 0 auto;
+  width:250px;
+}
