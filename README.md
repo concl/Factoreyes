@@ -8,6 +8,7 @@ Main.py is the primary file and there are a fair bit of libraries that you need 
 
 <img src="website1.png" alt="website" title="webstite">
 
+You can configure your inputs and press update to officially change settings. Then, you can drag and drop an image  of factoring problems (with leading coefficient = 1) and upload the file to start the analysis. It may take a while but, the website should give you back an image with bounding boxes around the items it thinks are similar.
 ## The Primary Algorithim
 Our project uses a machine learning algorithim to identify problems which have similar behaviors to one another. For this task we used a RNN (recursive neural network).
 
