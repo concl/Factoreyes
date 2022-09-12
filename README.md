@@ -12,6 +12,7 @@ Main.py is the primary file and there are a fair bit of libraries that you need 
 * pytorch
 * easyocr
 * pix2tex
+* pillow
 
 
 If you do it correctly running main.py should give you something like the following.
