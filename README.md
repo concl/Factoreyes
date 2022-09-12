@@ -10,3 +10,5 @@ For this hackathon we chose to primarily focus on only one type of math problems
 First, we created a generate a Latex string and then we used sympy to turn it into a parsed string. Since, our machine learning project relied the input being in the form of a binary tree. We took the parsed string and turned it into a binary tree. For the quadartic x^2 + 3x -4 it might look like the following.
 
 <img src="tree1.png" alt="tree image" title="tree image">
+
+Our algorithim for turning expressions into tree doesn't stop with polynomials. It also allows for more advanced functions. 
