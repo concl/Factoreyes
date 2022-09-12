@@ -7,7 +7,11 @@ https://factor-zengkc.pythonanywhere.com/
 ## Hosting it locally
 Originally our project was suppose to a website but, the hosting service may be a bit unreliable. So, in the github we left all the necessary files to run the website locally. The most important files are the static folder(images), template folder (html/css), ball.pt (our ML model), users.sqlite3 (this would theoretically be used to for a login page), and main.py. Every other file shouldn't play a role in whether it runs or not.
 
-Main.py is the primary file and there are a fair bit of libraries that you need download. If you do it correctly running main.py should give you something like the following.
+Main.py is the primary file and there are a fair bit of libraries that you need download. Expect to install the following:
+* dsadsad
+
+
+If you do it correctly running main.py should give you something like the following.
 
 <img src="website1.png" alt="website" title="webstite">
 
