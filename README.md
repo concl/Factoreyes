@@ -2,7 +2,7 @@
 Checks for repetitiveness in homework.
 
 ## How to use it
-Originally our project was suppose to a website but, we were unable to set it up. So, in the github we left all the necessary files to run the website locally. The most important files to upload is the static folder, template folder, ball.pt (our ML model), users.sqlite3 (this would theoretically be used to for a login page), and 
+Originally our project was suppose to a website but, we were unable to set it up. So, in the github we left all the necessary files to run the website locally. The most important files to upload is the static folder, template folder, ball.pt (our ML model), users.sqlite3 (this would theoretically be used to for a login page), and main.py. 
 
 ## The Primary Algorithim
 Our project uses a machine learning algorithim to identify problems which have similar behaviors to one another. For this task we used a RNN (recursive neural network).
