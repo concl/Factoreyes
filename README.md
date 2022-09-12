@@ -6,6 +6,8 @@ Originally our project was suppose to a website but, we were unable to set it up
 
 Main.py is the primary file and there are a fair bit of libraries that you need download. If you do it correctly running main.py should give you something like the following.
 
+<img src="website1.png" alt="website" title="webstite">
+
 ## The Primary Algorithim
 Our project uses a machine learning algorithim to identify problems which have similar behaviors to one another. For this task we used a RNN (recursive neural network).
 
